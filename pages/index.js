@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <meta charset="UTF-8">
        
-        <title>Dépannage Automobile en Île-de-France - Ouvert 24h/24</title>
+        <title>Depannage Automobile en Ile-de-France</title>
       </Head>
 
       <main>
