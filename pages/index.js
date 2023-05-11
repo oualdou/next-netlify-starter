@@ -7,8 +7,9 @@ export default function Home() {
     <div className="container">
       <Head>
         <meta charset="UTF-8">
-       
-        <title>Depannage Automobile en Ile-de-France</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Depannage automobile en Ile-de-France ouvert 24h/24. Fiable, rapide et professionnel. Nous intervenons pour tous types de pannes, du depannage a la fourniture de carburant en urgence. Contactez-nous maintenant.">
+        
       </Head>
 
       <main>
