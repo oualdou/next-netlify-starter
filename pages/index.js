@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import Image from 'next/image'
+
 
 export default function Home() {
   return (
@@ -15,7 +17,12 @@ export default function Home() {
 
       <main>
      
-     
+      <Image
+        src="../public/background.png"
+        width={500}
+        height={500}
+        alt="Picture of the author"
+      />
       
         <h1>Bienvenue sur notre site de dépannage automobile en Île-de-France, ouvert 24h/24 !</h1>
         <p>Lorsque vous êtes confronté à une panne de voiture, il est essentiel de pouvoir compter sur un service fiable et rapide. Notre équipe de professionnels expérimentés est là pour vous aider, que vous soyez en pleine nuit, en weekend ou pendant les jours fériés. Nous comprenons que les pannes de voiture peuvent survenir à tout moment, c est pourquoi nous sommes disponibles à toute heure pour vous fournir une assistance immédiate.</p>
