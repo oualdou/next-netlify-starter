@@ -14,12 +14,7 @@ export default function Home() {
       </Head>
 
       <main>
-      <Image
-        src="../public/background.png"
-        alt="Dépanneuse du future"
-        width={500}
-        height={300}
-      />
+     
      
       
         <h1>Bienvenue sur notre site de dépannage automobile en Île-de-France, ouvert 24h/24 !</h1>
