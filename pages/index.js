@@ -10,7 +10,7 @@ export default function Home() {
          <meta property="og:title" content="My page title" key="title" />
       </Head>
     <Head>
-        <meta name="description" content="blank">
+        <meta property="og:description" content="blank" key="description"/>
       </Head>
 
       <main>
