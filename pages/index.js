@@ -1,62 +1,4 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
-}
-/*
-import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
@@ -64,19 +6,25 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Dépannage automobile en Île-de-France ouvert 24h/24. Fiable, rapide et professionnel. Nous intervenons pour tous types de pannes, du dépannage à la fourniture de carburant d\'urgence. Contactez-nous dès maintenant.">
+        <title>Dépannage Automobile en Île-de-France - Ouvert 24h/24</title>
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+       
+        <h1>Bienvenue sur notre site de dépannage automobile en Île-de-France, ouvert 24h/24 !</h1>
+        <p>Lorsque vous êtes confronté à une panne de voiture, il est essentiel de pouvoir compter sur un service fiable et rapide. Notre équipe de professionnels expérimentés est là pour vous aider, que vous soyez en pleine nuit, en weekend ou pendant les jours fériés. Nous comprenons que les pannes de voiture peuvent survenir à tout moment, c\'est pourquoi nous sommes disponibles à toute heure pour vous fournir une assistance immédiate.</p>
+        <p>Nos services de dépannage couvrent tous types de pannes, des problèmes de batterie déchargée aux crevaisons, en passant par les pannes mécaniques plus complexes. Nous disposons des équipements nécessaires pour résoudre la plupart des problèmes sur place, vous permettant ainsi de reprendre rapidement la route en toute tranquillité.</p>
+        <p>En plus de notre service de dépannage, nous proposons également des services complémentaires tels que le remorquage de véhicules et la fourniture de carburant d\'urgence. Notre objectif est de vous offrir une solution complète pour tous vos besoins en matière de dépannage automobile.</p>
+        <p>Faites confiance à notre équipe compétente et dévouée pour prendre en charge votre véhicule avec professionnalisme et diligence. Nous sommes fiers de notre réputation en tant que prestataire de services de dépannage fiable en Île-de-France.</p>
+        <p>N\'hésitez pas à nous contacter dès maintenant pour bénéficier de notre assistance rapide et efficace. Votre satisfaction est notre priorité absolue.</p>
+      
       </main>
 
       <Footer />
     </div>
   )
 }
-*/
+
