@@ -21,7 +21,7 @@ export default function Home() {
       
         <h1>Bienvenue sur notre site de dépannage automobile en Île-de-France, ouvert 24h/24 !</h1>
         <Image
-        src="../public/background.png"
+        src="public/background.png"
         width={500}
         height={500}
         alt="Picture of the author"
