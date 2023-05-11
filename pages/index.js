@@ -10,7 +10,7 @@ export default function Home() {
          <meta property="og:title" content="My page title" key="title" />
       </Head>
     <Head>
-        <meta name="description" content="Dépannage automobile en Île-de-France ouvert 24h/24. Fiable, rapide et professionnel. Nous intervenons pour tous types de pannes, du dépannage à la fourniture de carburant d'urgence. Contactez-nous dès maintenant.">
+        <meta name="description" content="blank">
       </Head>
 
       <main>
