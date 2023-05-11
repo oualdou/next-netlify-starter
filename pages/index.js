@@ -23,7 +23,7 @@ export default function Home() {
       <h2>Ouvert 24h/24</h2>
 
       <Image
-        src="public/background.png"
+        src="/background.png"
         width={500}
         height={500}
         alt="Picture of the author"
