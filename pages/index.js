@@ -6,7 +6,9 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
+        <meta charset="UTF-8">
        
+        <title>Dépannage Automobile en Île-de-France - Ouvert 24h/24</title>
       </Head>
 
       <main>
