@@ -11,7 +11,6 @@ export default function Home() {
         <meta name="description" content="Depannage automobile en Ile-de-France ouvert 24h/24. Fiable, rapide et professionnel. Nous intervenons pour tous types de pannes, du depannage a la fourniture de carburant en urgence. Contactez-nous maintenant.">
         <title>Depannage Automobile en Ile-de-France</title>
       */
-     <title>My page title</title>
       </Head>
 
       <main>
