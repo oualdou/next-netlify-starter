@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-         <title>My page title</title>
+         <title>Dépannage Automobile en Île-de-France - Ouvert 24h/24</title>
          <meta property="og:title" content="My page title" key="title" />
       </Head>
     <Head>
